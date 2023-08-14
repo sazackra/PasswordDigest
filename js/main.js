@@ -29,6 +29,7 @@
     slidar.addEventListener("input", (e) => {
         passwordLength.textContent = slidar.value;
     });
+    passwordLength.textContent = slidar.value;
 
     let passBtn = document.getElementById("passBtn");
     passBtn.addEventListener("click", () => {
