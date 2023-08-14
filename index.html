@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>パスワードダイジェスト</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    
+    <main>
+        <div id="result"></div>
+        <button id="passBtn">パスワードを生成</button>
+        <fieldset class="passwordOption">
+            <legend>オプション</legend>
+            <label>長さ(<span name="password-length">8</span>)<input type="range" name="lenSlidar" min="8" max="24" value="8"></label>
+            <label>数字<input type="checkbox" name="number-checkbox"></label>
+            <label>記号<input type="checkbox" name="symbol-checkbox"></label>
+        </fieldset>
+    </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
